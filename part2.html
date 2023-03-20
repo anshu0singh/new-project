@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world biggest school</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav id="navbar">
+            <div id="logo">
+
+                <img src="/project2.img/logooo.jpg" alt="">
+
+            </div>
+            <div class="nav-links" id="navlinks">
+              
+              <i class="fa fa-times" onclick="hidemenu()"></i>
+               <ul>
+                 <li><a href=""><i class="fas fa-home"></i>HOME</a></li>
+                 <li><a href="part2.html"><i class="fas fa-info"></i>ABOUT US</a></li>
+                 <li><a href="part3.html"><i class="fas fa-graduation-cap"></i>COURSE</a></li>
+                 <li><a href="part4.html"><i class="fas fa-blog"></i>BLOG</a></li>
+                 <li><a href="part5.html"><i class="fas fa-phone"></i>CONTACT</a></li>
+               </ul>
+            </div>
+            
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <!-- <nav id="navbar">
+            <div id="logo">
+                <img src="/project2.img/logooo.jpg" alt="">
+    
+            </div>
+            <ul>
+                <li><a href="project2.html">HOME</a></li>
+                <li><a href="part2.html">ABOUT US</a></li>
+                <li><a href="part3.html">COURSE</a></li>
+                <li><a href="part4.html">BLOG</a></li>
+                <li><a href="part5.html">CONTACT</a></li>
+             </ul>
+        </nav> -->
+        <h1>About Us</h1>
+    </section>
+
+    <!-- about us section  -->
+
+    <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We Are The World's Largest School </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cumque. ipsum, dolor sit amet consectetur adipisicing elit. Quam, corrupti? ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem est recusandae quos nostrum, enim, vitae possimus ea facere delectus sed atque minus nulla hic a natus quia ut obcaecati saepe?</p>
+                    <a href="" class="btn blue-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="/project2.img/meet.jpg" >
+                </div>
+            </div>
+    </section>
+
+
+<!-- footer section  -->
+
+<section class="footer">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quidem doloremque facilis omnis deserunt illum, <br> vero numquam incidunt voluptatum ad sed libero molestiae?, ipsum.6</p>
+
+    <div class="icons">
+        <img src="/project2.img/socil media icon.png" >
+        <img src="/project2.img/socil media icon1.jpg" >
+        <img src="/project2.img/socil media icon2.jpg" >
+        <img src="/project2.img/socil media icon4.png" >
+        <img src="/project2.img/socil media icon5.png" >
+    </div>
+    <div class="study">
+        <p>Made With <img src="/project2.img/study.png" alt="">
+         Easy Tutorials
+         </p>
+    </div>
+</section>
+<!-- javascript for toggle menu  -->
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+    
+</script>
+</body>
+</html>
